@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Brilliant.ttf);
+}
+@media screen {
+   
+}
+body{
+   overflow-x: hidden;
+}
+
+#logo{
+    font-family: myfont;    
+    font-weight: 600;
+    color: black;
+    margin-left: 50px;
+    background-color: rgb(94, 13, 3);
+    padding: 8px;
+    border-radius: 150px;
+    color: white;
+    font-size: 20px;
+}
+.name{
+    font-family:Poppins, sans-serif;
+    font-weight: 600;
+    color: black;
+    padding-top: 15px;
+    font-size: 18px;
+    color: white;
+    
+   
+   
+    }
+#navbar{
+    background-image: url(images/image1.jpg);
+    box-shadow: 0px 0px 10px 0px rgba(0,
+    0, 0, 0.2);
+    
+}
+#fluid{
+   
+   padding: 10px;
+
+}
+
+
+#navitem{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    padding-left: 600px;
+    margin-right:300px;
+    
+    
+   
+}
+#navitem a{
+    text-decoration: none;
+    color: white;
+    text-align: start;
+    
+}
+#navitem a:hover{
+    
+     box-shadow: 0px 2px  rgb(247, 243, 242);
+}
+/*Header*/
+
+#cardtitle{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: rgb(250, 247, 247);
+    font-size: 50px;
+    margin-top: 50px;
+
+
+}
+ #content{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: rgb(250, 247, 247);
+    font-size: 20px;
+    padding-left: 100px;
+    
+
+ }
+  #link1{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: rgb(250, 247, 247);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 100px;
+    text-decoration: none;
+    border: 2px 4px white solid;
+    background-color: rgb(94, 13, 3);
+    padding: 15px 30px;
+ }
+ #link1:hover{
+    background-color: rgb(127, 129, 131);
+    opacity: 0.7;
+    border-style: solid;
+    border-color: white;
+    
+    }
+ #link2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: rgb(250, 247, 247);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    text-decoration: none;
+    padding: 10px 20px;
+ }
+ #link2:hover{
+   border-style: solid;
+   border-color: white;
+
+ }
+ /*About*/
+ #About{
+    height: 500px;
+    background-color: aliceblue;
+ }
+ #about{
+   background-color: aliceblue;
+
+ }
+ #About1{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-top: 150px;
+
+    
+ }
+ #About2{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-top: 150px;
+ }
+ #About p{
+    text-align: justify;
+    font-size: 20px;
+    
+ }
+ /* SERVICES*/
+ #skills{
+   font-family: poppins, sans-serif;
+
+    
+ }
+ #servicepara{
+   font-family: poppins, sans-serif;
+ 
+  
+
+
+ }
+ #skillss{
+    font-family: poppins, sans-serif;
+    justify-content: center;
+    font-size: 20px;
+
+    
+ }
+ #skills1{
+    height: 400px;
+    width: 400px;
+    
+ }
+ 
+ #skills1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+ #skills2{
+    height: 400px;
+    width: 400px;
+    
+ }
+ #skills2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+ #skills3{
+    height: 400px;
+    width: 400px;
+    
+ }
+ #skills3 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+ /*WHY WORK WITH ME*/
+ #work{
+    padding: 0px;
+    margin: 0px;
+ 
+ }
+ #workimage img{
+    width: 1000px;
+    height: 500px;
+ }
+ #workcontent{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(222, 239, 240);
+   
+
+ }
+ #workcontent p{
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    padding-left: 100px;
+
+ }
+ #workcontent h5{
+    padding-left: 100px;
+ }
+ #workcontent h2{
+    padding-left: 100px;
+ }
+ .tools{
+    padding-left: 100px;
+ }
+ .tools img{
+    width: 50px;
+    height: 50px;
+ }
+
+ /*CONTACT*/
+ #Contact{
+    background-color: rgb(206, 227, 245);
+    font-family: Poppins, sans-serif;
+    height:680px;
+    
+ }
+ #workwithme1{
+   justify-content: center;
+ }
+ #workwithme2{
+    width: 800px;
+    justify-content: center;
+    margin-top:30px
+}
+.form-group{
+    margin: 25px;
+}
+#submit{
+    text-align: center;
+}
+.sub{
+     
+    text-align: center;   
+}
+
+#submit{
+    text-align: center;
+    background-color:  rgb(94, 13, 3);
+    border:none;
+    color: white;
+    font-family: Poppins, sans-serif;
+    padding: 10px 40px;
+    border-radius: 25px;
+   
+    
+}
+#submit:hover{
+    color: rgb(94, 13, 3);
+    background-color: white;
+    font-weight: 700;
+    border-style: solid;
+    border-color: rgb(94, 13, 3) ;
+    
+}
+/*FOOTER*/
+#footer{
+    background-color:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    color: white;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    opacity: 0.9;
+}
+#footer1{
+    text-align: center;
+    padding-top: 20px;
+   
+
+}
+#footer1 h5{
+   text-align: center;
+  
+    font-size: 20px;
+
+}
+#footer2{
+    text-align: start;
+    padding-top: 10px;
+    
+
+}
+#footer1 {
+   margin-right: 100px;
+}
+#footer1 a img{
+    width: 20px;
+    height:20px;
+    margin: 10px;
+    
+}
